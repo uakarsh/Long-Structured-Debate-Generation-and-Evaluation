@@ -4,7 +4,7 @@ from spacy.tokens import Doc
 
 spacy.prefer_gpu()
 
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 verbose = False
 
